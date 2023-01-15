@@ -1,0 +1,38 @@
+.dreams {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.dream_item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid #ddd;
+    padding: 1rem 3rem;
+
+}
+
+
+.dream_item h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.dream_item p {
+    line-height: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.dream_item a {
+    background: tomato;
+    padding: 0.5rem;
+    width: 40%;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+}

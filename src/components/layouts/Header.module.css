@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background: teal;
+
+}
+
+.nav_logo h4 {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav_item {}
+
+.nav_item ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav_item ul li {}
+
+.nav_item ul li a {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
