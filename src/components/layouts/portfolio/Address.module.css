@@ -19,6 +19,12 @@
     font-weight: 700;
 }
 
+.address_item i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .address_item h4 span {
     text-transform: lowercase;
     font-weight: 500;

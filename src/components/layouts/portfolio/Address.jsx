@@ -1,17 +1,13 @@
 import style from "../portfolio/Address.module.css";
 
-const Address = ({address, add_info}) => {
+const Address = ({ address, add_info, icon }) => {
   return (
-    <section>
-      
-          <div className={style.address}>
-            <div className={style.address_item}>
-              <h4>
-                {address} <span>{add_info}</span>
-              </h4>
-            </div>
-          </div>
-    </section>
+    <div className={style.address_item}>
+      <i>{icon}</i>
+      <h4>
+        {address} <span>{add_info}</span>
+      </h4>
+    </div>
   );
 };
 
