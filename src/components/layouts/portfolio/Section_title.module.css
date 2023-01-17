@@ -22,3 +22,9 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+.section_title p {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1rem;
+}

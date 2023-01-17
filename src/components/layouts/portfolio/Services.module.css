@@ -2,23 +2,21 @@
     width: 70%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+    flex-flow: row wrap;
+    gap: 1rem;
 }
 
 .service_item {
-    flex-basis: 22%;
-    padding: 1rem 2rem;
-    display: flex;
-    flex-direction: column;
+    flex: 0 0 22%;
+    padding: 2rem 2rem;
     border: 1px solid #ddd;
-    gap: 0.5rem;
 }
 
 .service_item h4 {
     font-size: 17px;
     text-transform: capitalize;
     font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
 .service_item p {

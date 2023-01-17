@@ -20,11 +20,6 @@
 }
 
 .banner_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
     color: #fff;
 }
 
@@ -33,6 +28,7 @@
     font-size: 36px;
     padding: 1rem 4rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .banner_content p {
@@ -42,13 +38,38 @@
     font-size: 18px;
 }
 
-.banner_btn {}
+.button {
+    text-align: center;
+}
 
-.banner_btn a {
-    padding: 1rem 4rem;
-    background: tomato;
-    margin-right: 1rem;
+.button a {
+    display: inline-block;
+}
+
+.btn {
+    margin: 1rem;
     color: #fff;
-    text-transform: capitalize;
+    font-size: 2rem;
     font-weight: 700;
+    padding: 10px 40px;
+}
+
+.box_btn {
+    background: tomato;
+    transition: .3s;
+}
+
+.box_btn:hover {
+    background: black;
+}
+
+.border_btn {
+    border: 1px solid tomato;
+    transition: .3s;
+    padding: 8px 40px;
+}
+
+.border_btn:hover {
+    border-color: black;
+    color: tomato;
 }

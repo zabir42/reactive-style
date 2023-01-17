@@ -17,7 +17,7 @@
 .nav_item {}
 
 .nav_item ul {
-    display: flex;
+    display: inline-flex;
     gap: 1rem;
 }
 

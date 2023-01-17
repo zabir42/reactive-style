@@ -3,18 +3,16 @@
     margin: 0 auto;
     display: flex;
     gap: 1rem;
-    /* padding: 1rem 4rem; */
 }
 
 .contact_right {
-    flex-basis: 80%;
+    flex: 80%;
 }
 
 .contact_right form {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     gap: 1rem;
-    padding: 1rem;
 }
 
 .contact_right form input {
@@ -33,9 +31,7 @@
     border: none;
 }
 
-.contact_map {
-    padding: 1rem;
-}
+.contact_map {}
 
 .contact_map iframe {
     width: 100%;
