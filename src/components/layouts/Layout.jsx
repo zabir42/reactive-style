@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useAbout } from "../hooks/useAbout";
 import { useAddress } from "../hooks/useAddress";
 import { useServices } from "../hooks/useServices";
@@ -66,17 +67,17 @@ const Layout = () => {
     {
       address: "newyork",
       add_info: "united states america",
-      icon: "region",
+      icon: <FontAwesomeIcon icon={['fas', 'map-location']} />,
     },
     {
       address: "mobile no",
       add_info: "01781079305",
-      icon: "phone",
+      icon: <FontAwesomeIcon icon={['fas', 'phone']} />,
     },
     {
       address: "email",
       add_info: "info@email.com",
-      icon: "email",
+      icon: <FontAwesomeIcon icon={['fas', 'mail-bulk']} />,
     },
   ]);
 
@@ -95,12 +96,14 @@ const Layout = () => {
       />
 
       <div>{About}</div>
+
       <Section_title
         title="our services"
         desc="Dolor ex ad laboris duis amet dolor officia culpa anim ad cupidatat. Labore ex eiusmod laboris enim quis eiusmod consectetur dolor cupidatat Lorem cillum. Sunt irure laboris ipsum non quis enim sit eu voluptate officia ad. Magna esse non magna deserunt voluptate id sit dolore. Enim qui sint do ullamco. Quis ex ut laborum minim laboris consequat dolore occaecat laboris dolore nostrud officia aliquip aliquip."
       />
 
       <div>{Service}</div>
+
       <Section_title
         title="contact us"
         desc="Reprehenderit voluptate exercitation velit nisi nulla in id irure fugiat. Labore sint elit incididunt non ex id. Labore aute ea commodo in fugiat aliquip officia ea minim. Ea tempor aliqua laborum est dolor in sint ipsum occaecat incididunt labore adipisicing aliquip ad."
